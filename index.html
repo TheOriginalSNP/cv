@@ -4,24 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <title>Ivan's Portfolio</title>
-  <link rel="stylesheet" href="CSS\styles.css">
+  <link rel="stylesheet" href="CSS/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/favicon.ico">
 </head>
-
 <body>
-  <!--This is the hero section. Divided into 2 halves. Black/white-->
-  <section class="intro">
-    <div class="left-side">
-      <img class="profile-picture"
-        src="images\profilePicture.jpg"
-        alt="profile-picture">
-    </div>
-    <!--Using these divs I can use Flex Box to design them and make them look tter.-->
-    <div class="right-side">
-      <h1 class="left-side-copy">Hi! <br> I'm Ivan Martinez</h1>
+
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>Hi! I'm Ivan Martinez</h1>
+    <h2>UX Designer | Tech Generalist</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
       <article>
         <p>Product Designer, researcher, and creator fascinated by the social <br>
           product space. based in Orlando, Florida.</p>
@@ -33,151 +33,56 @@
           <li>I can make the best Mac and Cheese you've ever tasted.</li>
         </ul>
       </article>
+      <main>
+        <p>My love for creative design led me into taking software development.<br>
+          Before Thinkful, I had already become a UX/UI designer. While researching <br>
+          different career paths, it helped me realized that a person that could both <br>
+          design and code would be a great asset to any company. </p>
+        <br>
+        <p>After some courses on my own I found the field fascinating. So now I'm <br>
+          taking on the challenge on becoming an engineer in the industry.</p>
+        <br>
+        <p>I am actively looking for new opportunities to work with new teams and <br>
+          create great things that people can enjoy using. Feel free to reach out! I'm <br>
+          excited to create great things.</p>
+      </main>
     </div>
-  </section>
 
-  <!--The about me is plain for now. Just a simple paragraph about me.-->
-  <section class="about-me">
+    <hr>
 
-    <main>
-      <p>My love for creative design led me into taking software development.<br>
-        Before Thinkful, I had already become a UX/UI designer. While researching <br>
-        different career paths, it helped me realized that a person that could both <br>
-        design and code would be a great asset to any company. </p>
-      <br>
-      <p>After some courses on my own I found the field fascinating. So now I'm <br>
-        taking on the challenge on becoming an engineer in the industry.</p>
-      <br>
-      <p>I am actively looking for new opportunities to work with new teams and <br>
-        create great things that people can enjoy using. Feel free to reach out! I'm <br>
-        excited to create great things.</p>
-    </main>
-  </section>
-
-  <hr>
-
-  <section class="work-history">
-    <table cellspacing="20">
-      <thead>
-        <tr>
-          <th>Dates</th>
-          <th>Work</th>
-          <th>Company</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>December 2020 - Present</td>
-          <td>Insurance Broker</td>
-          <td>Guided Medicare</td>
-        </tr>
-        <tr>
-          <td>July 2018 - Present</td>
-          <td>Professional Freelancer</td>
-          <td>IM Designs</td>
-        </tr>
-        <tr>
-          <td>March 2020 - October 2020</td>
-          <td>Product Design Lead</td>
-          <td>LIT</td>
-        </tr>
-        <tr>
-          <td>August 2014 - July 1019</td>
-          <td>Sales Professional</td>
-          <td>Jenkins Honda</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
-
-  <hr>
-
-  <h3>Skills</h3>
-
-  <section class="skill-table">
-    <table>
-      <tr>
-        <td>
-          <Table cellspacing="20">
-            <tr>
-              <td>User Reasearch</td>
-              <td>✦✦✦✦✧</td>
-            </tr>
-            <tr>
-              <td>Wireframing</td>
-              <td>✦✦✦✦✧</td>
-            </tr>
-            <tr>
-              <td>User Testing</td>
-              <td>✦✦✦✦✧</td>
-            </tr>
-            <tr>
-              <td>Prototyping</td>
-              <td>✦✦✦✦✧</td>
-            </tr>
-            <tr>
-              <td>UI Design</td>
-              <td>✦✦✦✦✧</td>
-            </tr>
-            <tr>
-              <td>Responsive Design</td>
-              <td>✦✦✦✦✧</td>
-            </tr>
-          </Table>
-        </td>
-        <td>
-          <table cellspacing="20">
-            <tr>
-              <td>Front-end programming</td>
-              <td>✦✦✦✦✧</td>
-            </tr>
-            <tr>
-              <td>Information architecture</td>
-              <td>✦✦✦✦✧</td>
-            </tr>
-            <tr>
-              <td>User centred design</td>
-              <td>✦✦✦✦✧</td>
-            </tr>
-            <tr>
-              <td>Figma</td>
-              <td>✦✦✦✦✧</td>
-            </tr>
-            <tr>
-              <td>Photoshop</td>
-              <td>✦✦✦✦✧</td>
-            </tr>
-            <tr>
-              <td>Illustrator</td>
-              <td>✦✦✦✦✧</td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-  </section>
-
-  <!--This is the contact me section where you can easily click on the links to  go
-  to either my LinkedIn and Github-->
-  <section class="contact-section">
-    <div class="left-side">
-      <h2>Ways to <br>Contact me</h2>
+    <div class="skills">
+      <h2>My Skills</h2>
+      <div>
+        <img src="" alt="">
+        <h3></h3>
+      </div>
     </div>
-    <div class="right-side">
-      <ol>
-        <div class="li-div">
-          <img class="linkedin-icon" src="https://i.imgur.com/QWanuh5.png" alt="Linked In Icon">
-          <li class="nostyle"><a href="https://www.linkedin.com/in/ivan-martineznieves/" target="blank">Linked In</a>
-          </li>
-        </div>
-        <div class="gh-div">
-          <img class="github-icon" src="https://i.imgur.com/KMaA0RT.png" alt="GitHub Icon">
-          <li class="nostyle"><a href="https://github.com/TheOriginalSNP" target="blank">Git Hub</a></li>
-        </div>
-      </ol>
-    </div>
-  </section>
 
+    <hr>
+
+    <div class="contact-me">
+      <div>
+        <h2>Ways to <br>Contact me</h2>
+      </div>
+      <div>
+        <ol>
+          <div>
+            <img class="linkedin-icon" src="images/linkedin.png" alt="Linked In Icon">
+            <li class="nostyle"><a href="https://www.linkedin.com/in/ivan-martineznieves/" target="blank">Linked In</a>
+            </li>
+          </div>
+          <div>
+            <img class="github-icon" src="images/github.png" alt="GitHub Icon">
+            <li class="nostyle"><a href="https://github.com/TheOriginalSNP" target="blank">Git Hub</a></li>
+          </div>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+
+    <p>© 2023 Ivan Martinez</p>
+  </div>
 </body>
-
 </html>
